@@ -13,7 +13,6 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-
-require 'rubymq_facets/active_record'
-require 'rubymq_facets/actionpack'
-require 'rubymq_facets/externals/greedy_loader'
+ 
+require 'rubymq-facets/core/exception'
+require 'rubymq-facets/core/file'

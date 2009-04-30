@@ -13,6 +13,14 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
- 
-require 'rubymq_facets/core/exception'
-require 'rubymq_facets/core/file'
+
+require 'rubymq-facets/more/threadsafe_sequence'
+
+class ThreadsafeSequenceLoop < ThreadsafeSequence
+  def nextval
+    @mutex.synchronize do
+      @value = @initial_value if @value == @maximum
+      @value += 1
+    end
+  end
+end

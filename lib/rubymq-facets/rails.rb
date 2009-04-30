@@ -14,5 +14,6 @@
 #  limitations under the License.
 
 
-require 'rubymq_facets/core/condition_variable'
-require 'rubymq_facets/core/thread'
+require 'rubymq-facets/active_record'
+require 'rubymq-facets/actionpack'
+require 'rubymq-facets/externals/greedy_loader'

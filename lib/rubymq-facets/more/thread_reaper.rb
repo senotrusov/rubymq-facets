@@ -13,7 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
  
-require 'rubymq_facets/core/thread'
+require 'rubymq-facets/core/thread'
 
 class ThreadReaper
   def initialize(logger, exit_status = 1)

@@ -1,5 +1,5 @@
 # 
-#  Copyright 2007-2008 Stanislav Senotrusov <senotrusov@gmail.com>
+#  Copyright 2006-2008 Stanislav Senotrusov <senotrusov@gmail.com>
 # 
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -14,8 +14,8 @@
 #  limitations under the License.
 
 
-require 'rubymq_facets/actionpack/action_controller_skip_render.rb.rb'
-require 'rubymq_facets/actionpack/action_view_select_helpers.rb'
-require 'rubymq_facets/actionpack/graphviz_filter.rb'
-require 'rubymq_facets/actionpack/prototype_helper_javascript_generator.rb'
-require 'rubymq_facets/actionpack/truefalsize_checkbox.rb'
+require 'rubymq-facets/core/condition_variable'
+require 'rubymq-facets/core/exception'
+require 'rubymq-facets/core/file'
+require 'rubymq-facets/core/socket'
+require 'rubymq-facets/core/thread'

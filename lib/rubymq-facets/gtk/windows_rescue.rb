@@ -19,7 +19,7 @@ def windows_rescue(on_error = nil)
     yield
   rescue Exception => exception
     begin
-      require 'rubymq_facets/gtk/windows_message_box'
+      require 'rubymq-facets/gtk/windows_message_box'
       RubyMQ.logger.error(exception.inspect_with_backtrace)
       WindowsMessageBox.alert("Unhandled exception: #{exception.inspect_with_backtrace}")
     rescue Exception => nested_exception

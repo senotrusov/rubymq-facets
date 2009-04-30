@@ -1,5 +1,5 @@
 # 
-#  Copyright 2006-2008 Stanislav Senotrusov <senotrusov@gmail.com>
+#  Copyright 2007-2008 Stanislav Senotrusov <senotrusov@gmail.com>
 # 
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -12,28 +12,30 @@
 #  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
+ 
 
+# based on http://ruby-gnome2.sourceforge.jp/hiki.cgi?tips_threads
+# based on Mathieu Blondel's suggestion http://www.ruby-forum.com/topic/125038
 
-require 'rubymq_facets/more/check_is_active'
+require 'thread'
+require 'rubymq-facets/gtk/windows_rescue'
 
-module ActiveRecord
-  module Acts
-    module SometimesActive
-      def self.included(base)
-        base.extend(ClassMethods)
-      end
+module Gtk
+  RUBY_MAIN_QUEUE = Queue.new
 
-      module ClassMethods
-        def acts_as_sometimes_active
-          class_eval <<-END
-            include CheckIsActive
-          END
+  def Gtk.queue &block
+    RUBY_MAIN_QUEUE.push block
+  end
+
+  def Gtk.main_with_queue timeout
+    Gtk.timeout_add timeout do
+      windows_rescue do
+        until RUBY_MAIN_QUEUE.empty?
+          RUBY_MAIN_QUEUE.shift.call
         end
       end
+      true
     end
+    Gtk.main
   end
-end
-
-ActiveRecord::Base.class_eval do
-  include ActiveRecord::Acts::SometimesActive
 end

@@ -15,7 +15,7 @@
 
 
 require 'thread'
-require 'rubymq_facets/core/exception'
+require 'rubymq-facets/core/exception'
 
 class ThreadJoinTimeoutExpiresError < Exception; end
 class ThreadTerminatedError < StandardError; end

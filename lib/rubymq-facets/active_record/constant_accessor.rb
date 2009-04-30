@@ -14,7 +14,7 @@
 #  limitations under the License.
 
 
-require 'rubymq_facets/more/accessors_generator'
+require 'rubymq-facets/more/accessors_generator'
 
 module ConstantAccessor
   include AccessorsGenerator

@@ -14,13 +14,5 @@
 #  limitations under the License.
 
 
-require 'rubymq_facets/more/threadsafe_sequence'
-
-class ThreadsafeSequenceLoop < ThreadsafeSequence
-  def nextval
-    @mutex.synchronize do
-      @value = @initial_value if @value == @maximum
-      @value += 1
-    end
-  end
-end
+require 'rubymq-facets/core/condition_variable'
+require 'rubymq-facets/core/thread'

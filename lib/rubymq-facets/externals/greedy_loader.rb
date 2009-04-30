@@ -37,8 +37,8 @@
 #  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-require 'rubymq_facets/more/logger_accessor'
-require 'rubymq_facets/core_ext'
+require 'rubymq-facets/more/logger_accessor'
+require 'rubymq-facets/core_ext'
 
 class GreedyLoader
   LOADED_CLASSES = {}

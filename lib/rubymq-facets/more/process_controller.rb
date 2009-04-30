@@ -42,11 +42,11 @@
 #
 
 require 'etc'
-require 'rubymq_facets'
-require 'rubymq_facets/externals/logger' unless defined?(Merb::Logger)
-require 'rubymq_facets/core_ext'
-require 'rubymq_facets/thread'
-require 'rubymq_facets/more/argv_parser'
+require 'rubymq-facets'
+require 'rubymq-facets/externals/logger' unless defined?(Merb::Logger)
+require 'rubymq-facets/core_ext'
+require 'rubymq-facets/thread'
+require 'rubymq-facets/more/argv_parser'
 
 class ProcessController
   class TestDaemon

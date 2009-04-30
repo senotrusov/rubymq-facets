@@ -19,7 +19,7 @@ require 'rake/gempackagetask'
 require 'rubygems/specification'
 
 spec = Gem::Specification.new do |s|
-  s.name          = "rubymq_facets"
+  s.name          = "rubymq-facets"
   s.version       = "3.0.0"
   
   s.platform      = Gem::Platform::RUBY
