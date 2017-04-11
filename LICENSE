@@ -207,11 +207,10 @@
 
 For the files (from rubyonrails.org):
 
-    lib/rubymq-facets/externals/class.rb
     lib/rubymq-facets/actionpack/action_view_select_helpers.rb
     lib/rubymq-facets/actionpack/prototype_helper_javascript_generator.rb
     lib/rubymq-facets/active_record/acts_as_tree.rb
-    lib/rubymq-facets/more/structured_logger.rb
+    lib/rubymq-facets/externals/class.rb
 
 Copyright (c) 2004-2008 David Heinemeier Hansson
 
@@ -238,18 +237,65 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 For the files (from merbivore.com):
 
-    lib/rubymq-facets/externals/core_ext/class.rb
     lib/rubymq-facets/externals/core_ext/hash.rb
     lib/rubymq-facets/externals/core_ext/kernel.rb
-    lib/rubymq-facets/externals/core_ext/mash.rb
-    lib/rubymq-facets/externals/core_ext/object.rb
     lib/rubymq-facets/externals/core_ext/object_space.rb
+    lib/rubymq-facets/externals/core_ext/object.rb
     lib/rubymq-facets/externals/core_ext/string.rb
     lib/rubymq-facets/externals/core_ext/time.rb
     lib/rubymq-facets/externals/greedy_loader.rb
     lib/rubymq-facets/externals/logger.rb
 
 Copyright (c) 2008 Ezra Zygmuntowicz
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+For the file (from merbivore.com and rubyonrails.org):
+
+    lib/rubymq-facets/externals/core_ext/mash.rb
+
+Copyright (c) 2008 Ezra Zygmuntowicz
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Copyright (c) 2004-2008 David Heinemeier Hansson
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -299,9 +345,31 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------
 
-For the file (from techno-weenie.net):
+For the file (from rubyonrails.org and techno-weenie.net):
 
     lib/rubymq-facets/more/structured_logger.rb
+
+Copyright (c) 2005-2007 David Heinemeier Hansson
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 Copyright (c) 2005 Rick Olson
 
