@@ -272,7 +272,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------
 
-For the files (from mocha.rubyforge.org):
+For the file (from mocha.rubyforge.org):
 
     lib/rubymq-facets/more/object_id_like_in_inspect.rb
 
@@ -299,7 +299,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------
 
-For the files (from techno-weenie.net):
+For the file (from techno-weenie.net):
 
     lib/rubymq-facets/more/structured_logger.rb
 
